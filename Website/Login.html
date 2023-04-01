@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedSoul</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <Header>
+        <!-- Division for the Menu -->
+        <div>
+            <table cellspacing=20px>
+                <tr>
+                    <td><a href="index.html"><img src="img/Logo.png"alt="Logo" height="90px" style="padding: 10px"></a></td>
+
+                    <td>
+                        <nav>
+                            <table>
+                                <tr>
+                                    <td class="MenuButton"><a href="profile.html">Profile</a></td>
+                                    <td class="MenuButton"><a href="Schedule.html">Schedule</a></td>
+                                    <td class="MenuButton"><a href="Form.html">Form</a></td>
+                                    <td class="MenuButton"><a href="Catalog.html">Catalog</a></td>
+                                    <td class="MenuButton"><a href="About.html">About</a></td>
+                                    <td class="MenuButton"><a href="Login.html">Log Out</a></td>
+                                    <td><input type="text" placeholder="Looking for something?"style="margin-left: 150px;"></td>
+                                    <td><button type="button" onclick="searchTable()">Search</button></td>
+                                </tr>
+                            </table>
+                        </nav>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </Header>
+    <!-- Division for Center Items -->
+    <div class="wrapper">
+        <div class="main-content">
+            <!-- Your main content here -->
+            <head>
+                <title>Sign In</title>
+                <style>
+                    body {
+                        background-color: #f2f2f2;
+                    }
+
+                    form {
+                        margin: 50px auto;
+                        width: 400px;
+                        background-color: white;
+                        border: 1px solid #ccc;
+                        padding: 20px;
+                    }
+
+                    h1 {
+                        text-align: center;
+                        font-size: 30px;
+                        color: #333;
+                    }
+
+                    label {
+                        display: block;
+                        margin-bottom: 10px;
+                        font-size: 20px;
+                        color: #333;
+                    }
+
+                    input[type="text"],
+                    input[type="password"] {
+                        width: 100%;
+                        padding: 10px;
+                        margin-bottom: 20px;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                        font-size: 18px;
+                    }
+
+                    input[type="submit"] {
+                        background-color: #533f3f;
+                        color: white;
+                        padding: 10px;
+                        border: none;
+                        border-radius: 4px;
+                        cursor: pointer;
+                        font-size: 20px;
+                    }
+                    
+                    input[type="submit"]:hover {
+                        background-color: #3da474;
+                    }
+                </style>
+            </head>
+
+            <body>
+                <form action="index.html">
+                    <h1>Sign In</h1>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <input type="submit" value="Sign In">
+                </form>
+                  
+            </body>
+        </div>
+
+
+        <div class="recommendation-slide">
+            <h2>Doctor's Recommendation</h2>
+            <div class="recommendations">
+                <ul>
+                    <li>
+                        <h3>Dr. Jane Smith</h3>
+                        <p>Specialty: Cardiology</p>
+                        <p>Qualifications: MD, PhD</p>
+                        <p>Experience: 15 years</p>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div>
+        <footer>
+            <p> FAST NUCES Lhr, Med Soul.co, Copyright 2023 </p>
+        </footer>
+    </div>
+</body>
+
+</html>
